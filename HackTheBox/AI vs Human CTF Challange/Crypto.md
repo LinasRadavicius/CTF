@@ -41,9 +41,10 @@ with open("private.pem", "r") as f:
     key = RSA.import_key(f.read())
 
 ciphertext_hex = "YOUR_CIPHERTEXT_HEX"
-ciphertext = int(ciphertext_hex, 16) 
+ciphertext = int(ciphertext_hex, 16)  # Convert hex to int
 
 plaintext = pow(ciphertext, key.d, key.n)
 
 flag = long_to_bytes(plaintext)
-print(flag.decode()) 
+print(flag.decode()
+
