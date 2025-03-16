@@ -43,10 +43,8 @@ with open("private.pem", "r") as f:
 ciphertext_hex = "YOUR_CIPHERTEXT_HEX"
 ciphertext = int(ciphertext_hex, 16) 
 
-# Decrypt: m = c^d mod n
 plaintext = pow(ciphertext, key.d, key.n)
 
-# Convert back to original flag
 flag = long_to_bytes(plaintext)
 print(flag.decode()) 
 
