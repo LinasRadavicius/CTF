@@ -47,5 +47,3 @@ plaintext = pow(ciphertext, key.d, key.n)
 
 flag = long_to_bytes(plaintext)
 print(flag.decode()) 
-
-![image](https://github.com/user-attachments/assets/a390acb2-1c92-4c06-94aa-dc1e518cc8f6)
