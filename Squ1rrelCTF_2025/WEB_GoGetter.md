@@ -26,8 +26,9 @@ I'm not going to bore you with all the ways I attempted to exploit this vuln, bu
 	- It Parses the first matching field from the JSON ^ , GO's json/encoding is case-insensitive for field tags, but will only use the first match when duplicate keys exist,
 	
 	Using BURP I edit my request to send following JSON data
-	**{"action":"getflag","AcTiOn":"getgopher"}**
-	![4](https://github.com/user-attachments/assets/55a64e22-655f-4a29-a403-0771ecb3bf7c)
+	{"action":"getflag","AcTiOn":"getgopher"}
+
+![4](https://github.com/user-attachments/assets/9f7cc5c4-9fb6-4571-a7f3-c2914148cd15)
 
 
 	The reason it worked:
