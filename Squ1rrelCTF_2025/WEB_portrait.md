@@ -1,4 +1,4 @@
-![6](https://github.com/user-attachments/assets/cbb7b0e8-d9d7-4010-a96b-be6b24f7ba6b)**Web: Portrait:**
+**Web: Portrait:**
 
 I found this challenge the toughest, and I think it explains why it had the lowest solves in this category at only 40! 
 
